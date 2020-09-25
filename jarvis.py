@@ -64,6 +64,8 @@ if __name__ == "__main__":
               query = takeCommand().lower()
 
         # Logic for executing tasks based on query
+# A piece of advice here, this many if else loops looks bad, maybe try a switch case?
+# Also accept this pull request (#Hactoberfest)
               if 'wikipedia' in query:
                      speak('Searching Wikipedia...')
                      query = query.replace("wikipedia", "")
