@@ -62,7 +62,8 @@ if __name__ == "__main__":
        wishMe()
        while True:
               query = takeCommand().lower()
-
+         # this many if else loops looks bad, maybe try a switch case?
+        # Also accept this pull request (#Hactoberfest)
         # Logic for executing tasks based on query
               if 'wikipedia' in query:
                      speak('Searching Wikipedia...')
